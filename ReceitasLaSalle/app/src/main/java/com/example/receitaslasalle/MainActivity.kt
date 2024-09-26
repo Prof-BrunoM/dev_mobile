@@ -28,8 +28,6 @@ class MainActivity : AppCompatActivity() {
                 var intent = Intent(applicationContext, Tela2::class.java)
                 startActivity(intent)
             }
-
-
         }
 
     }
