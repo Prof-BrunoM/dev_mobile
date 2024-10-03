@@ -13,7 +13,7 @@ class Tela2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tela2)
 
-        val recipeList = listOf("Receitas deliciosas", "Doces e salgados", "Sobremesas", "Melhores receitas")
+        val recipeList = listOf(Recipe("Costela", R.drawable.costela),Recipe("Tacos", R.drawable.tacos) ,Recipe("Hamburguer", R.drawable.hamburguer) )
 
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerview)
 
